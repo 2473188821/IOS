@@ -88,6 +88,10 @@ else\
 dispatch_sync(dispatch_get_main_queue(), block);\
 }
 
+/** 防止死循环的弱引用 */
+#define WS(weakSelf)  __weak __typeof(&*self)weakSelf = self
+
+
 //*************************************************************************
 /** 单例文件声明 */
 //单例宏文件头

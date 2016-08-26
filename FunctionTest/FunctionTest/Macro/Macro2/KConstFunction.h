@@ -65,6 +65,9 @@ else\
 dispatch_sync(dispatch_get_main_queue(), block);\
 }
 
+/** 防止死循环的弱引用 */
+#define WS(weakSelf)  __weak __typeof(&*self)weakSelf = self
+
 //*************************************************************************
 /** 资源获取 */
 #define GetImageWithPath(name) [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:name ofType:@"png"]]
