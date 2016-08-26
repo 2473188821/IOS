@@ -15,6 +15,19 @@
 		14BACA351D6DB602004AF32A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14BACA331D6DB602004AF32A /* LaunchScreen.storyboard */; };
 		14BACA3F1D6DB676004AF32A /* PrivateInterfaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14BACA3E1D6DB676004AF32A /* PrivateInterfaceViewController.m */; };
 		14BACA471D6DBD7F004AF32A /* PrivateInterfaceShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 14BACA461D6DBD7F004AF32A /* PrivateInterfaceShow.m */; };
+		14FF9C0D1D6FEC43007ED415 /* UIColor+colorExpand.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FF9C0C1D6FEC43007ED415 /* UIColor+colorExpand.m */; };
+		14FF9C101D6FEC83007ED415 /* UIImage+imageExpand.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FF9C0F1D6FEC83007ED415 /* UIImage+imageExpand.m */; };
+		14FF9C131D6FECB1007ED415 /* NSDictionary+dictionaryExpand.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FF9C121D6FECB1007ED415 /* NSDictionary+dictionaryExpand.m */; };
+		14FF9C161D6FECEB007ED415 /* NSError+errorExpand.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FF9C151D6FECEB007ED415 /* NSError+errorExpand.m */; };
+		14FF9C1E1D6FEF2B007ED415 /* NSDate+dateExpand.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FF9C1D1D6FEF2B007ED415 /* NSDate+dateExpand.m */; };
+		14FF9C211D6FEF78007ED415 /* UIView+viewExpand.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FF9C201D6FEF78007ED415 /* UIView+viewExpand.m */; };
+		14FF9C241D6FEFEF007ED415 /* UINavigationController+navExpand.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FF9C231D6FEFEF007ED415 /* UINavigationController+navExpand.m */; };
+		14FF9C271D6FF055007ED415 /* NSArray+arrayExpand.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FF9C261D6FF055007ED415 /* NSArray+arrayExpand.m */; };
+		14FF9C2A1D6FF15B007ED415 /* NSString+stringExpand.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FF9C291D6FF15B007ED415 /* NSString+stringExpand.m */; };
+		14FF9C2D1D700CC0007ED415 /* NSUserDefaults+userdefaultExpand.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FF9C2C1D700CC0007ED415 /* NSUserDefaults+userdefaultExpand.m */; };
+		14FF9C331D700D61007ED415 /* CocoaSecurity.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FF9C301D700D61007ED415 /* CocoaSecurity.m */; };
+		14FF9C341D700D61007ED415 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 14FF9C311D700D61007ED415 /* LICENSE */; };
+		14FF9C351D700D61007ED415 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 14FF9C321D700D61007ED415 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +53,30 @@
 		14FF9C071D6FDFEC007ED415 /* KConstFunction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KConstFunction.h; sourceTree = "<group>"; };
 		14FF9C081D6FE002007ED415 /* KConstDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KConstDevice.h; sourceTree = "<group>"; };
 		14FF9C091D6FE660007ED415 /* KHeaderConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KHeaderConst.h; sourceTree = "<group>"; };
+		14FF9C0B1D6FEC43007ED415 /* UIColor+colorExpand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+colorExpand.h"; sourceTree = "<group>"; };
+		14FF9C0C1D6FEC43007ED415 /* UIColor+colorExpand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+colorExpand.m"; sourceTree = "<group>"; };
+		14FF9C0E1D6FEC83007ED415 /* UIImage+imageExpand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+imageExpand.h"; sourceTree = "<group>"; };
+		14FF9C0F1D6FEC83007ED415 /* UIImage+imageExpand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+imageExpand.m"; sourceTree = "<group>"; };
+		14FF9C111D6FECB1007ED415 /* NSDictionary+dictionaryExpand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+dictionaryExpand.h"; sourceTree = "<group>"; };
+		14FF9C121D6FECB1007ED415 /* NSDictionary+dictionaryExpand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+dictionaryExpand.m"; sourceTree = "<group>"; };
+		14FF9C141D6FECEB007ED415 /* NSError+errorExpand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+errorExpand.h"; sourceTree = "<group>"; };
+		14FF9C151D6FECEB007ED415 /* NSError+errorExpand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+errorExpand.m"; sourceTree = "<group>"; };
+		14FF9C1C1D6FEF2B007ED415 /* NSDate+dateExpand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+dateExpand.h"; sourceTree = "<group>"; };
+		14FF9C1D1D6FEF2B007ED415 /* NSDate+dateExpand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+dateExpand.m"; sourceTree = "<group>"; };
+		14FF9C1F1D6FEF78007ED415 /* UIView+viewExpand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+viewExpand.h"; sourceTree = "<group>"; };
+		14FF9C201D6FEF78007ED415 /* UIView+viewExpand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+viewExpand.m"; sourceTree = "<group>"; };
+		14FF9C221D6FEFEF007ED415 /* UINavigationController+navExpand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+navExpand.h"; sourceTree = "<group>"; };
+		14FF9C231D6FEFEF007ED415 /* UINavigationController+navExpand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+navExpand.m"; sourceTree = "<group>"; };
+		14FF9C251D6FF055007ED415 /* NSArray+arrayExpand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+arrayExpand.h"; sourceTree = "<group>"; };
+		14FF9C261D6FF055007ED415 /* NSArray+arrayExpand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+arrayExpand.m"; sourceTree = "<group>"; };
+		14FF9C281D6FF15B007ED415 /* NSString+stringExpand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+stringExpand.h"; sourceTree = "<group>"; };
+		14FF9C291D6FF15B007ED415 /* NSString+stringExpand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+stringExpand.m"; sourceTree = "<group>"; };
+		14FF9C2B1D700CC0007ED415 /* NSUserDefaults+userdefaultExpand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+userdefaultExpand.h"; sourceTree = "<group>"; };
+		14FF9C2C1D700CC0007ED415 /* NSUserDefaults+userdefaultExpand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+userdefaultExpand.m"; sourceTree = "<group>"; };
+		14FF9C2F1D700D61007ED415 /* CocoaSecurity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaSecurity.h; sourceTree = "<group>"; };
+		14FF9C301D700D61007ED415 /* CocoaSecurity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CocoaSecurity.m; sourceTree = "<group>"; };
+		14FF9C311D700D61007ED415 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		14FF9C321D700D61007ED415 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +117,7 @@
 				14BACA401D6DBC25004AF32A /* Macro */,
 				14BACA3C1D6DB65F004AF32A /* PrivateIosTest */,
 				14BACA421D6DBCC6004AF32A /* IosProblems */,
+				14FF9C0A1D6FEBF6007ED415 /* Category */,
 				14BACA2E1D6DB602004AF32A /* Main.storyboard */,
 				14BACA311D6DB602004AF32A /* Assets.xcassets */,
 				14BACA331D6DB602004AF32A /* LaunchScreen.storyboard */,
@@ -153,6 +191,45 @@
 			path = Macro2;
 			sourceTree = "<group>";
 		};
+		14FF9C0A1D6FEBF6007ED415 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				14FF9C2E1D700D61007ED415 /* CocoaSecurity */,
+				14FF9C311D700D61007ED415 /* LICENSE */,
+				14FF9C321D700D61007ED415 /* README.md */,
+				14FF9C0B1D6FEC43007ED415 /* UIColor+colorExpand.h */,
+				14FF9C0C1D6FEC43007ED415 /* UIColor+colorExpand.m */,
+				14FF9C0E1D6FEC83007ED415 /* UIImage+imageExpand.h */,
+				14FF9C0F1D6FEC83007ED415 /* UIImage+imageExpand.m */,
+				14FF9C111D6FECB1007ED415 /* NSDictionary+dictionaryExpand.h */,
+				14FF9C121D6FECB1007ED415 /* NSDictionary+dictionaryExpand.m */,
+				14FF9C141D6FECEB007ED415 /* NSError+errorExpand.h */,
+				14FF9C151D6FECEB007ED415 /* NSError+errorExpand.m */,
+				14FF9C1C1D6FEF2B007ED415 /* NSDate+dateExpand.h */,
+				14FF9C1D1D6FEF2B007ED415 /* NSDate+dateExpand.m */,
+				14FF9C1F1D6FEF78007ED415 /* UIView+viewExpand.h */,
+				14FF9C201D6FEF78007ED415 /* UIView+viewExpand.m */,
+				14FF9C221D6FEFEF007ED415 /* UINavigationController+navExpand.h */,
+				14FF9C231D6FEFEF007ED415 /* UINavigationController+navExpand.m */,
+				14FF9C251D6FF055007ED415 /* NSArray+arrayExpand.h */,
+				14FF9C261D6FF055007ED415 /* NSArray+arrayExpand.m */,
+				14FF9C281D6FF15B007ED415 /* NSString+stringExpand.h */,
+				14FF9C291D6FF15B007ED415 /* NSString+stringExpand.m */,
+				14FF9C2B1D700CC0007ED415 /* NSUserDefaults+userdefaultExpand.h */,
+				14FF9C2C1D700CC0007ED415 /* NSUserDefaults+userdefaultExpand.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		14FF9C2E1D700D61007ED415 /* CocoaSecurity */ = {
+			isa = PBXGroup;
+			children = (
+				14FF9C2F1D700D61007ED415 /* CocoaSecurity.h */,
+				14FF9C301D700D61007ED415 /* CocoaSecurity.m */,
+			);
+			path = CocoaSecurity;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -212,6 +289,7 @@
 			files = (
 				14BACA351D6DB602004AF32A /* LaunchScreen.storyboard in Resources */,
 				14BACA321D6DB602004AF32A /* Assets.xcassets in Resources */,
+				14FF9C341D700D61007ED415 /* LICENSE in Resources */,
 				14BACA301D6DB602004AF32A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,9 +303,21 @@
 			files = (
 				14BACA3F1D6DB676004AF32A /* PrivateInterfaceViewController.m in Sources */,
 				14BACA2D1D6DB602004AF32A /* ViewController.m in Sources */,
+				14FF9C131D6FECB1007ED415 /* NSDictionary+dictionaryExpand.m in Sources */,
+				14FF9C271D6FF055007ED415 /* NSArray+arrayExpand.m in Sources */,
+				14FF9C2D1D700CC0007ED415 /* NSUserDefaults+userdefaultExpand.m in Sources */,
+				14FF9C211D6FEF78007ED415 /* UIView+viewExpand.m in Sources */,
+				14FF9C1E1D6FEF2B007ED415 /* NSDate+dateExpand.m in Sources */,
+				14FF9C331D700D61007ED415 /* CocoaSecurity.m in Sources */,
+				14FF9C2A1D6FF15B007ED415 /* NSString+stringExpand.m in Sources */,
 				14BACA471D6DBD7F004AF32A /* PrivateInterfaceShow.m in Sources */,
 				14BACA2A1D6DB602004AF32A /* AppDelegate.m in Sources */,
+				14FF9C351D700D61007ED415 /* README.md in Sources */,
 				14BACA271D6DB602004AF32A /* main.m in Sources */,
+				14FF9C0D1D6FEC43007ED415 /* UIColor+colorExpand.m in Sources */,
+				14FF9C161D6FECEB007ED415 /* NSError+errorExpand.m in Sources */,
+				14FF9C101D6FEC83007ED415 /* UIImage+imageExpand.m in Sources */,
+				14FF9C241D6FEFEF007ED415 /* UINavigationController+navExpand.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
