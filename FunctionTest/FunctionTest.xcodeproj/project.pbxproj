@@ -34,6 +34,12 @@
 		14BACA451D6DBD7F004AF32A /* PrivateInterfaceShow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrivateInterfaceShow.h; sourceTree = "<group>"; };
 		14BACA461D6DBD7F004AF32A /* PrivateInterfaceShow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrivateInterfaceShow.m; sourceTree = "<group>"; };
 		14FF9C021D6FDDA6007ED415 /* KPublicConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPublicConst.h; sourceTree = "<group>"; };
+		14FF9C041D6FDEF7007ED415 /* KConstAddress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KConstAddress.h; sourceTree = "<group>"; };
+		14FF9C051D6FDF22007ED415 /* KConstSize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KConstSize.h; sourceTree = "<group>"; };
+		14FF9C061D6FDF58007ED415 /* KConstColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KConstColor.h; sourceTree = "<group>"; };
+		14FF9C071D6FDFEC007ED415 /* KConstFunction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KConstFunction.h; sourceTree = "<group>"; };
+		14FF9C081D6FE002007ED415 /* KConstDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KConstDevice.h; sourceTree = "<group>"; };
+		14FF9C091D6FE660007ED415 /* KHeaderConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KHeaderConst.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +143,12 @@
 		14FF9C011D6FDBFC007ED415 /* Macro2 */ = {
 			isa = PBXGroup;
 			children = (
+				14FF9C091D6FE660007ED415 /* KHeaderConst.h */,
+				14FF9C041D6FDEF7007ED415 /* KConstAddress.h */,
+				14FF9C051D6FDF22007ED415 /* KConstSize.h */,
+				14FF9C061D6FDF58007ED415 /* KConstColor.h */,
+				14FF9C071D6FDFEC007ED415 /* KConstFunction.h */,
+				14FF9C081D6FE002007ED415 /* KConstDevice.h */,
 			);
 			path = Macro2;
 			sourceTree = "<group>";
