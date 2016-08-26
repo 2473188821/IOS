@@ -30,10 +30,10 @@
 		14BACA361D6DB602004AF32A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14BACA3D1D6DB676004AF32A /* PrivateInterfaceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrivateInterfaceViewController.h; sourceTree = "<group>"; };
 		14BACA3E1D6DB676004AF32A /* PrivateInterfaceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrivateInterfaceViewController.m; sourceTree = "<group>"; };
-		14BACA411D6DBC3B004AF32A /* KPublicConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = KPublicConst.h; path = ../KPublicConst.h; sourceTree = "<group>"; };
 		14BACA431D6DBCD1004AF32A /* IosProblems.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IosProblems.h; sourceTree = "<group>"; };
 		14BACA451D6DBD7F004AF32A /* PrivateInterfaceShow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrivateInterfaceShow.h; sourceTree = "<group>"; };
 		14BACA461D6DBD7F004AF32A /* PrivateInterfaceShow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrivateInterfaceShow.m; sourceTree = "<group>"; };
+		14FF9C021D6FDDA6007ED415 /* KPublicConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPublicConst.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,7 +129,7 @@
 		14FF9C001D6FDBF3007ED415 /* Macro1 */ = {
 			isa = PBXGroup;
 			children = (
-				14BACA411D6DBC3B004AF32A /* KPublicConst.h */,
+				14FF9C021D6FDDA6007ED415 /* KPublicConst.h */,
 			);
 			path = Macro1;
 			sourceTree = "<group>";
