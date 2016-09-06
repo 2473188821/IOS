@@ -48,6 +48,13 @@ return shared##className; \
 #define HKLog(...)
 #endif
 
+#if DEBUG
+#define DebugLog(...) NSLog(__VA_ARGS__)
+#elif DEBUG == 1
+#define DebugLog(...)
+#endif
+
+
 //打开Xcode -->>product -->scheme -->>edit scheme -->info 设置debug or release
 
 //*************************************************************************
