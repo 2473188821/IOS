@@ -31,6 +31,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1497952D1D7EECF7003D3E98 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		14BACA221D6DB602004AF32A /* FunctionTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunctionTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14BACA261D6DB602004AF32A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		14BACA281D6DB602004AF32A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -157,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				14BACA431D6DBCD1004AF32A /* IosProblems.h */,
+				1497952D1D7EECF7003D3E98 /* Header.h */,
 			);
 			path = IosProblems;
 			sourceTree = "<group>";
