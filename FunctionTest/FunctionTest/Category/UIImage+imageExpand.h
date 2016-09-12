@@ -66,5 +66,15 @@
  */
 + (UIImage *)imageWithColor:(UIColor *)color withSize:(CGSize)size;
 
+/**
+ *  调整图片的尺寸
+ *
+ *  @param image      原始图片
+ *  @param targetSize 目的尺寸
+ *
+ *  @return 修改后的图片
+ */
++ (UIImage *)image:(UIImage*)image byScalingToSize:(CGSize)targetSize;
+
 
 @end

@@ -80,6 +80,8 @@ dispatch_sync(dispatch_get_main_queue(), block);\
 #define GetImageWithPath(name) [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:name ofType:@"png"]]
 #define GetImageJPGWithPath(name) [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:name ofType:@"jpg"]]
 
+#define LoadImage(name)   [UIImage imageNamed:name]
+
 //*************************************************************************
 /** 去除警告 */
 #define SUPPRESS_PERFORM_SELECTOR_LEAK_WARNING(code)                    \

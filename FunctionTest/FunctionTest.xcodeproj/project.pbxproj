@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14564D201D80F710007C3366 /* MessageTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 14564D1F1D80F710007C3366 /* MessageTools.m */; };
 		14BACA271D6DB602004AF32A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14BACA261D6DB602004AF32A /* main.m */; };
 		14BACA2A1D6DB602004AF32A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14BACA291D6DB602004AF32A /* AppDelegate.m */; };
 		14BACA2D1D6DB602004AF32A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14BACA2C1D6DB602004AF32A /* ViewController.m */; };
@@ -31,6 +32,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		14564D1E1D80F710007C3366 /* MessageTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageTools.h; sourceTree = "<group>"; };
+		14564D1F1D80F710007C3366 /* MessageTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageTools.m; sourceTree = "<group>"; };
 		1497952D1D7EECF7003D3E98 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		14BACA221D6DB602004AF32A /* FunctionTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunctionTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14BACA261D6DB602004AF32A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -91,6 +94,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14564D1D1D80F6F7007C3366 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				14564D1E1D80F710007C3366 /* MessageTools.h */,
+				14564D1F1D80F710007C3366 /* MessageTools.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
 		14BACA191D6DB602004AF32A = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +126,7 @@
 				14BACA291D6DB602004AF32A /* AppDelegate.m */,
 				14BACA2B1D6DB602004AF32A /* ViewController.h */,
 				14BACA2C1D6DB602004AF32A /* ViewController.m */,
+				14564D1D1D80F6F7007C3366 /* Utility */,
 				14BACA441D6DBD53004AF32A /* PrivateInterface */,
 				14BACA401D6DBC25004AF32A /* Macro */,
 				14BACA3C1D6DB65F004AF32A /* PrivateIosTest */,
@@ -312,6 +325,7 @@
 				14FF9C1E1D6FEF2B007ED415 /* NSDate+dateExpand.m in Sources */,
 				14FF9C331D700D61007ED415 /* CocoaSecurity.m in Sources */,
 				14FF9C2A1D6FF15B007ED415 /* NSString+stringExpand.m in Sources */,
+				14564D201D80F710007C3366 /* MessageTools.m in Sources */,
 				14BACA471D6DBD7F004AF32A /* PrivateInterfaceShow.m in Sources */,
 				14BACA2A1D6DB602004AF32A /* AppDelegate.m in Sources */,
 				14FF9C351D700D61007ED415 /* README.md in Sources */,

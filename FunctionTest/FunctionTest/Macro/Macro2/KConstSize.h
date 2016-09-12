@@ -17,6 +17,9 @@
 #define SCREEN_WIDTH        [UIScreen mainScreen].bounds.size.width
 #define SCREEN_HEIGHT       [UIScreen mainScreen].bounds.size.height
 
+/** 边缘尺寸 */
+#define Space   10
+
 /** 除去导航的尺寸 */
 #define MAINVIEW_HEIGHT (SCREEN_HEIGHT - 64)
 
