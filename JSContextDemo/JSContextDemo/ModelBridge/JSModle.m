@@ -10,6 +10,15 @@
 
 @implementation JSModle
 
+
+- (void)setJsContext:(JSContext *)jsContext {
+    _jsContext = jsContext;
+    _jsContext[@"localCallSystemCamera"] = ^(NSString *param){
+        NSLog(@"param--:%@",param);
+
+    };
+}
+
 /** 调用本地相册 */
 - (void)localCallSystemCamera {
     NSLog(@"Called local system camera!");

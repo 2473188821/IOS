@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "KPublicConst.h"
 
 @interface ViewController : UIViewController
 

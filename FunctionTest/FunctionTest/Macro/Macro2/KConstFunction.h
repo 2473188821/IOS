@@ -91,5 +91,15 @@ code;                                                                   \
 _Pragma("clang diagnostic pop")
 
 
+//这个-Wunused-variable代表的意思就是 有的东西 你实例化了但是没有使用
+/** 去除警告 */
+#define SUPPRESS_UNUSED_WARNING(code)                                   \
+_Pragma("clang diagnostic push")                                        \
+_Pragma("clang diagnostic ignored \"-Wunused-variable\"")               \
+code;                                                                   \
+_Pragma("clang diagnostic pop")                                         \
+
+
+
 
 #endif /* KConstFunction_h */
