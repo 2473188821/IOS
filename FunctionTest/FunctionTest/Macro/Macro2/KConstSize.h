@@ -28,5 +28,9 @@
 #define NAVBAR_STATUE_HEIGHT 64.0f
 #define SCREEN_SCALE SCREEN_WIDTH/320.0f
 
+//默认坐标相关宏定义
+#define NavigationBar_HEIGHT 44
+#define UILABEL_DEFAULT_FONT_SIZE 20.0f
+
 
 #endif /* KConstSize_h */
