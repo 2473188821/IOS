@@ -22,6 +22,7 @@
 		141AF4721D93DD4C00CE9054 /* CycleScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 141AF4711D93DD4C00CE9054 /* CycleScrollViewTests.m */; };
 		141AF47D1D93DD4C00CE9054 /* CycleScrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 141AF47C1D93DD4C00CE9054 /* CycleScrollViewUITests.m */; };
 		141AF48C1D93DD7100CE9054 /* CycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 141AF48B1D93DD7100CE9054 /* CycleScrollView.m */; };
+		14B050591DDAA016007B083D /* CircleRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B050581DDAA016007B083D /* CircleRefreshView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,8 @@
 		141AF47E1D93DD4C00CE9054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		141AF48A1D93DD7100CE9054 /* CycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CycleScrollView.h; sourceTree = "<group>"; };
 		141AF48B1D93DD7100CE9054 /* CycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CycleScrollView.m; sourceTree = "<group>"; };
+		14B050571DDAA016007B083D /* CircleRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleRefreshView.h; sourceTree = "<group>"; };
+		14B050581DDAA016007B083D /* CircleRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleRefreshView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +136,7 @@
 				141AF45B1D93DD4C00CE9054 /* AppDelegate.m */,
 				141AF45D1D93DD4C00CE9054 /* ViewController.h */,
 				141AF45E1D93DD4C00CE9054 /* ViewController.m */,
+				14B050561DDAA016007B083D /* CircleRefresh */,
 				141AF48A1D93DD7100CE9054 /* CycleScrollView.h */,
 				141AF48B1D93DD7100CE9054 /* CycleScrollView.m */,
 				1414E1311D94131D00515B4C /* images */,
@@ -169,6 +173,15 @@
 				141AF47E1D93DD4C00CE9054 /* Info.plist */,
 			);
 			path = CycleScrollViewUITests;
+			sourceTree = "<group>";
+		};
+		14B050561DDAA016007B083D /* CircleRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				14B050571DDAA016007B083D /* CircleRefreshView.h */,
+				14B050581DDAA016007B083D /* CircleRefreshView.m */,
+			);
+			path = CircleRefresh;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,6 +324,7 @@
 				141AF45C1D93DD4C00CE9054 /* AppDelegate.m in Sources */,
 				141AF48C1D93DD7100CE9054 /* CycleScrollView.m in Sources */,
 				141AF4591D93DD4C00CE9054 /* main.m in Sources */,
+				14B050591DDAA016007B083D /* CircleRefreshView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

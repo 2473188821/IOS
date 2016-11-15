@@ -22,6 +22,7 @@
 		141AF4721D93DD4C00CE9054 /* CycleScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 141AF4711D93DD4C00CE9054 /* CycleScrollViewTests.m */; };
 		141AF47D1D93DD4C00CE9054 /* CycleScrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 141AF47C1D93DD4C00CE9054 /* CycleScrollViewUITests.m */; };
 		141AF48C1D93DD7100CE9054 /* CycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 141AF48B1D93DD7100CE9054 /* CycleScrollView.m */; };
+		145B0C7A1DCD836E00E7258A /* CCProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 145B0C791DCD836E00E7258A /* CCProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,8 @@
 		141AF47E1D93DD4C00CE9054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		141AF48A1D93DD7100CE9054 /* CycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CycleScrollView.h; sourceTree = "<group>"; };
 		141AF48B1D93DD7100CE9054 /* CycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CycleScrollView.m; sourceTree = "<group>"; };
+		145B0C781DCD836E00E7258A /* CCProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCProgressView.h; sourceTree = "<group>"; };
+		145B0C791DCD836E00E7258A /* CCProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +138,7 @@
 				141AF45E1D93DD4C00CE9054 /* ViewController.m */,
 				141AF48A1D93DD7100CE9054 /* CycleScrollView.h */,
 				141AF48B1D93DD7100CE9054 /* CycleScrollView.m */,
+				145B0C771DCD836E00E7258A /* 等待框 */,
 				1414E1311D94131D00515B4C /* images */,
 				141AF4601D93DD4C00CE9054 /* Main.storyboard */,
 				141AF4631D93DD4C00CE9054 /* Assets.xcassets */,
@@ -169,6 +173,15 @@
 				141AF47E1D93DD4C00CE9054 /* Info.plist */,
 			);
 			path = CycleScrollViewUITests;
+			sourceTree = "<group>";
+		};
+		145B0C771DCD836E00E7258A /* 等待框 */ = {
+			isa = PBXGroup;
+			children = (
+				145B0C781DCD836E00E7258A /* CCProgressView.h */,
+				145B0C791DCD836E00E7258A /* CCProgressView.m */,
+			);
+			path = "等待框";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,6 +323,7 @@
 				141AF45F1D93DD4C00CE9054 /* ViewController.m in Sources */,
 				141AF45C1D93DD4C00CE9054 /* AppDelegate.m in Sources */,
 				141AF48C1D93DD7100CE9054 /* CycleScrollView.m in Sources */,
+				145B0C7A1DCD836E00E7258A /* CCProgressView.m in Sources */,
 				141AF4591D93DD4C00CE9054 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

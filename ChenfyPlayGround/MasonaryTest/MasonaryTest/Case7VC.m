@@ -44,7 +44,7 @@
 - (void)initImageView {
     _imageTitle = [UIImageView new];
     _imageTitle.image = [UIImage imageNamed:@"head.jpg"];
-    _imageTitle.contentMode = UIViewContentModeScaleAspectFill;
+    _imageTitle.contentMode = UIViewContentModeScaleToFill;
     [self.view addSubview:_imageTitle];
     
     [_imageTitle mas_makeConstraints:^(MASConstraintMaker *make) {
