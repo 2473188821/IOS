@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14BF2DE21DE6BE2A00BA62A3 /* VersionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14BF2DDF1DE6BE2A00BA62A3 /* VersionView.m */; };
+		14BF2DE31DE6BE2A00BA62A3 /* VersionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14BF2DE11DE6BE2A00BA62A3 /* VersionViewController.m */; };
 		14DD1ABA1DDBF0FD004C56A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DD1AB91DDBF0FD004C56A9 /* main.m */; };
 		14DD1ABD1DDBF0FD004C56A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DD1ABC1DDBF0FD004C56A9 /* AppDelegate.m */; };
 		14DD1AC31DDBF0FD004C56A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14DD1AC11DDBF0FD004C56A9 /* Main.storyboard */; };
@@ -46,6 +48,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14BF2DDE1DE6BE2A00BA62A3 /* VersionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VersionView.h; sourceTree = "<group>"; };
+		14BF2DDF1DE6BE2A00BA62A3 /* VersionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VersionView.m; sourceTree = "<group>"; };
+		14BF2DE01DE6BE2A00BA62A3 /* VersionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VersionViewController.h; sourceTree = "<group>"; };
+		14BF2DE11DE6BE2A00BA62A3 /* VersionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VersionViewController.m; sourceTree = "<group>"; };
 		14DD1AB51DDBF0FD004C56A9 /* DemoFunctionTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoFunctionTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14DD1AB91DDBF0FD004C56A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		14DD1ABB1DDBF0FD004C56A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -107,6 +113,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14BF2DDD1DE6BE2A00BA62A3 /* VersionControl */ = {
+			isa = PBXGroup;
+			children = (
+				14BF2DDE1DE6BE2A00BA62A3 /* VersionView.h */,
+				14BF2DDF1DE6BE2A00BA62A3 /* VersionView.m */,
+				14BF2DE01DE6BE2A00BA62A3 /* VersionViewController.h */,
+				14BF2DE11DE6BE2A00BA62A3 /* VersionViewController.m */,
+			);
+			path = VersionControl;
+			sourceTree = "<group>";
+		};
 		14DD1AAC1DDBF0FD004C56A9 = {
 			isa = PBXGroup;
 			children = (
@@ -133,6 +150,7 @@
 				14DD1B241DDC37BC004C56A9 /* BaseController */,
 				14DD1ABB1DDBF0FD004C56A9 /* AppDelegate.h */,
 				14DD1ABC1DDBF0FD004C56A9 /* AppDelegate.m */,
+				14BF2DDD1DE6BE2A00BA62A3 /* VersionControl */,
 				14DD1B1A1DDC36B8004C56A9 /* WaitProgressView */,
 				14DD1B041DDC0894004C56A9 /* BannerCycleView */,
 				14DD1AB81DDBF0FD004C56A9 /* Supporting Files */,
@@ -361,10 +379,12 @@
 			files = (
 				14DD1B2D1DDC383B004C56A9 /* CycleScrollView.m in Sources */,
 				14DD1B2A1DDC37BC004C56A9 /* ViewController.m in Sources */,
+				14BF2DE21DE6BE2A00BA62A3 /* VersionView.m in Sources */,
 				14DD1B1F1DDC36B8004C56A9 /* CCProgressView.m in Sources */,
 				14DD1B291DDC37BC004C56A9 /* BaseViewController.m in Sources */,
 				14DD1B201DDC36B8004C56A9 /* CircleRefreshView.m in Sources */,
 				14DD1B191DDC35B5004C56A9 /* BannerViewController.m in Sources */,
+				14BF2DE31DE6BE2A00BA62A3 /* VersionViewController.m in Sources */,
 				14DD1B121DDC0894004C56A9 /* BannerScrollView.m in Sources */,
 				14DD1ABD1DDBF0FD004C56A9 /* AppDelegate.m in Sources */,
 				14DD1ABA1DDBF0FD004C56A9 /* main.m in Sources */,

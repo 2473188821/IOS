@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "BannerViewController.h"
 #import "WaitViewController.h"
+#import "VersionViewController.h"
 
 
 /** 屏幕尺寸参数 */
@@ -33,7 +34,7 @@
 }
 #pragma mark - **************** 初始化操作
 - (void)initBaseData {
-    self.arrayDataSource = @[@"Banner展示－UIScrollView",@"等待框的显示"];
+    self.arrayDataSource = @[@"Banner展示－UIScrollView",@"等待框的显示",@"App版本升级监测"];
 }
 
 - (void)initBaseView {
@@ -82,7 +83,7 @@
         }
             break;
         case 2: {
-            
+            [self functionVersionControl];
         }
             break;
         case 3: {
@@ -114,11 +115,15 @@
     BannerViewController *ban = [BannerViewController new];
     [self.navigationController pushViewController:ban animated:YES];
 }
-
 - (void)functionWaitView {
     WaitViewController *waitVC = [WaitViewController new];
     [self.navigationController pushViewController:waitVC animated:YES];
 }
+- (void)functionVersionControl {
+    VersionViewController *vv = [VersionViewController new];
+    [self.navigationController pushViewController:vv animated:YES];
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
