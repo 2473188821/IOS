@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1456AF2A1DE8184D000CD6C9 /* icbc.png in Resources */ = {isa = PBXBuildFile; fileRef = 1456AF261DE8184D000CD6C9 /* icbc.png */; };
+		1456AF2B1DE8184D000CD6C9 /* iccc.png in Resources */ = {isa = PBXBuildFile; fileRef = 1456AF271DE8184D000CD6C9 /* iccc.png */; };
+		1456AF2C1DE8184D000CD6C9 /* NewsNavigationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1456AF291DE8184D000CD6C9 /* NewsNavigationView.m */; };
+		1456AF2F1DE818B3000CD6C9 /* DailyNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1456AF2E1DE818B3000CD6C9 /* DailyNewsViewController.m */; };
 		14BF2DE21DE6BE2A00BA62A3 /* VersionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14BF2DDF1DE6BE2A00BA62A3 /* VersionView.m */; };
 		14BF2DE31DE6BE2A00BA62A3 /* VersionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14BF2DE11DE6BE2A00BA62A3 /* VersionViewController.m */; };
 		14DD1ABA1DDBF0FD004C56A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DD1AB91DDBF0FD004C56A9 /* main.m */; };
@@ -48,6 +52,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1456AF261DE8184D000CD6C9 /* icbc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icbc.png; sourceTree = "<group>"; };
+		1456AF271DE8184D000CD6C9 /* iccc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iccc.png; sourceTree = "<group>"; };
+		1456AF281DE8184D000CD6C9 /* NewsNavigationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsNavigationView.h; sourceTree = "<group>"; };
+		1456AF291DE8184D000CD6C9 /* NewsNavigationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsNavigationView.m; sourceTree = "<group>"; };
+		1456AF2D1DE818B3000CD6C9 /* DailyNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DailyNewsViewController.h; sourceTree = "<group>"; };
+		1456AF2E1DE818B3000CD6C9 /* DailyNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DailyNewsViewController.m; sourceTree = "<group>"; };
 		14BF2DDE1DE6BE2A00BA62A3 /* VersionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VersionView.h; sourceTree = "<group>"; };
 		14BF2DDF1DE6BE2A00BA62A3 /* VersionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VersionView.m; sourceTree = "<group>"; };
 		14BF2DE01DE6BE2A00BA62A3 /* VersionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VersionViewController.h; sourceTree = "<group>"; };
@@ -113,6 +123,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1456AF251DE8184D000CD6C9 /* DailyNewsNavView */ = {
+			isa = PBXGroup;
+			children = (
+				1456AF261DE8184D000CD6C9 /* icbc.png */,
+				1456AF271DE8184D000CD6C9 /* iccc.png */,
+				1456AF281DE8184D000CD6C9 /* NewsNavigationView.h */,
+				1456AF291DE8184D000CD6C9 /* NewsNavigationView.m */,
+				1456AF2D1DE818B3000CD6C9 /* DailyNewsViewController.h */,
+				1456AF2E1DE818B3000CD6C9 /* DailyNewsViewController.m */,
+			);
+			path = DailyNewsNavView;
+			sourceTree = "<group>";
+		};
 		14BF2DDD1DE6BE2A00BA62A3 /* VersionControl */ = {
 			isa = PBXGroup;
 			children = (
@@ -150,6 +173,7 @@
 				14DD1B241DDC37BC004C56A9 /* BaseController */,
 				14DD1ABB1DDBF0FD004C56A9 /* AppDelegate.h */,
 				14DD1ABC1DDBF0FD004C56A9 /* AppDelegate.m */,
+				1456AF251DE8184D000CD6C9 /* DailyNewsNavView */,
 				14BF2DDD1DE6BE2A00BA62A3 /* VersionControl */,
 				14DD1B1A1DDC36B8004C56A9 /* WaitProgressView */,
 				14DD1B041DDC0894004C56A9 /* BannerCycleView */,
@@ -348,8 +372,10 @@
 			files = (
 				14DD1AC81DDBF0FD004C56A9 /* LaunchScreen.storyboard in Resources */,
 				14DD1B111DDC0894004C56A9 /* 4.jpg in Resources */,
+				1456AF2B1DE8184D000CD6C9 /* iccc.png in Resources */,
 				14DD1B0E1DDC0894004C56A9 /* 1.jpg in Resources */,
 				14DD1B0F1DDC0894004C56A9 /* 2.jpg in Resources */,
+				1456AF2A1DE8184D000CD6C9 /* icbc.png in Resources */,
 				14DD1B101DDC0894004C56A9 /* 3.jpg in Resources */,
 				14DD1AC51DDBF0FD004C56A9 /* Assets.xcassets in Resources */,
 				14DD1AC31DDBF0FD004C56A9 /* Main.storyboard in Resources */,
@@ -382,9 +408,11 @@
 				14BF2DE21DE6BE2A00BA62A3 /* VersionView.m in Sources */,
 				14DD1B1F1DDC36B8004C56A9 /* CCProgressView.m in Sources */,
 				14DD1B291DDC37BC004C56A9 /* BaseViewController.m in Sources */,
+				1456AF2C1DE8184D000CD6C9 /* NewsNavigationView.m in Sources */,
 				14DD1B201DDC36B8004C56A9 /* CircleRefreshView.m in Sources */,
 				14DD1B191DDC35B5004C56A9 /* BannerViewController.m in Sources */,
 				14BF2DE31DE6BE2A00BA62A3 /* VersionViewController.m in Sources */,
+				1456AF2F1DE818B3000CD6C9 /* DailyNewsViewController.m in Sources */,
 				14DD1B121DDC0894004C56A9 /* BannerScrollView.m in Sources */,
 				14DD1ABD1DDBF0FD004C56A9 /* AppDelegate.m in Sources */,
 				14DD1ABA1DDBF0FD004C56A9 /* main.m in Sources */,

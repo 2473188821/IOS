@@ -10,6 +10,7 @@
 #import "BannerViewController.h"
 #import "WaitViewController.h"
 #import "VersionViewController.h"
+#import "DailyNewsViewController.h"
 
 
 /** 屏幕尺寸参数 */
@@ -34,7 +35,7 @@
 }
 #pragma mark - **************** 初始化操作
 - (void)initBaseData {
-    self.arrayDataSource = @[@"Banner展示－UIScrollView",@"等待框的显示",@"App版本升级监测"];
+    self.arrayDataSource = @[@"Banner展示－UIScrollView",@"等待框的显示",@"App版本升级监测",@"知呼日报底部导航视图"];
 }
 
 - (void)initBaseView {
@@ -69,6 +70,7 @@
         cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:identify];
     }
     cell.textLabel.text = self.arrayDataSource[indexPath.row];
+    cell.textLabel.font = [UIFont systemFontOfSize:14];
     return cell;
 }
 
@@ -87,7 +89,7 @@
         }
             break;
         case 3: {
-            
+            [self functionDailyNewsNav];
         }
             break;
         case 4: {
@@ -122,6 +124,10 @@
 - (void)functionVersionControl {
     VersionViewController *vv = [VersionViewController new];
     [self.navigationController pushViewController:vv animated:YES];
+}
+- (void)functionDailyNewsNav {
+    DailyNewsViewController *dailyVC = [DailyNewsViewController new];
+    [self.navigationController pushViewController:dailyVC animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {
