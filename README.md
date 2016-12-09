@@ -18,6 +18,7 @@
 	A:轮播图 uiscrollview ＋ uicollectionview；
 	B:app版本升级监测View；
 	C:等待视图 － 类似于MBProgressView（简易版）；
+	D:CAGradientLayer动画
 	
 #####4:demo "ChenfyPlayGround"
 	提供了一些功能演示demo

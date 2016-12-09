@@ -99,7 +99,33 @@ _Pragma("clang diagnostic ignored \"-Wunused-variable\"")               \
 code;                                                                   \
 _Pragma("clang diagnostic pop")                                         \
 
+/** GCD线程代码块 */
+#define dispatch_main_sync_safe(block)\
+if ([NSThread isMainThread]) {\
+block();\
+} else {\
+dispatch_sync(dispatch_get_main_queue(), block);\
+}
 
+#define dispatch_main_async_safe(block)\
+if ([NSThread isMainThread]) {\
+block();\
+} else {\
+dispatch_async(dispatch_get_main_queue(), block);\
+}
 
+/** 枚举的重定义 */
+#ifndef NS_ENUM
+#define NS_ENUM(_type, _name) enum _name : _type _name; enum _name : _type
+#endif
+
+#ifndef NS_OPTIONS
+#define NS_OPTIONS(_type, _name) enum _name : _type _name; enum _name : _type
+#endif
+
+/** arc 与 非arc的判断 */
+#if !__has_feature(objc_arc)
+#error SDWebImage is ARC only. Either turn on ARC for the project or use -fobjc-arc flag
+#endif
 
 #endif /* KConstFunction_h */
