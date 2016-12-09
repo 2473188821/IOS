@@ -13,6 +13,8 @@
 		1456AF2F1DE818B3000CD6C9 /* DailyNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1456AF2E1DE818B3000CD6C9 /* DailyNewsViewController.m */; };
 		14BF2DE21DE6BE2A00BA62A3 /* VersionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14BF2DDF1DE6BE2A00BA62A3 /* VersionView.m */; };
 		14BF2DE31DE6BE2A00BA62A3 /* VersionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14BF2DE11DE6BE2A00BA62A3 /* VersionViewController.m */; };
+		14D8348C1DFAA0F20062F632 /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D8348B1DFAA0F20062F632 /* CircleView.m */; };
+		14D8348F1DFAA1330062F632 /* CAGreadientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D8348E1DFAA1330062F632 /* CAGreadientViewController.m */; };
 		14DD1ABA1DDBF0FD004C56A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DD1AB91DDBF0FD004C56A9 /* main.m */; };
 		14DD1ABD1DDBF0FD004C56A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DD1ABC1DDBF0FD004C56A9 /* AppDelegate.m */; };
 		14DD1AC31DDBF0FD004C56A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14DD1AC11DDBF0FD004C56A9 /* Main.storyboard */; };
@@ -62,6 +64,10 @@
 		14BF2DDF1DE6BE2A00BA62A3 /* VersionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VersionView.m; sourceTree = "<group>"; };
 		14BF2DE01DE6BE2A00BA62A3 /* VersionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VersionViewController.h; sourceTree = "<group>"; };
 		14BF2DE11DE6BE2A00BA62A3 /* VersionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VersionViewController.m; sourceTree = "<group>"; };
+		14D8348A1DFAA0F20062F632 /* CircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleView.h; sourceTree = "<group>"; };
+		14D8348B1DFAA0F20062F632 /* CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleView.m; sourceTree = "<group>"; };
+		14D8348D1DFAA1330062F632 /* CAGreadientViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAGreadientViewController.h; sourceTree = "<group>"; };
+		14D8348E1DFAA1330062F632 /* CAGreadientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAGreadientViewController.m; sourceTree = "<group>"; };
 		14DD1AB51DDBF0FD004C56A9 /* DemoFunctionTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoFunctionTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14DD1AB91DDBF0FD004C56A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		14DD1ABB1DDBF0FD004C56A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -147,6 +153,17 @@
 			path = VersionControl;
 			sourceTree = "<group>";
 		};
+		14D834891DFAA0F20062F632 /* CAGradientLayer动画 */ = {
+			isa = PBXGroup;
+			children = (
+				14D8348A1DFAA0F20062F632 /* CircleView.h */,
+				14D8348B1DFAA0F20062F632 /* CircleView.m */,
+				14D8348D1DFAA1330062F632 /* CAGreadientViewController.h */,
+				14D8348E1DFAA1330062F632 /* CAGreadientViewController.m */,
+			);
+			path = "CAGradientLayer动画";
+			sourceTree = "<group>";
+		};
 		14DD1AAC1DDBF0FD004C56A9 = {
 			isa = PBXGroup;
 			children = (
@@ -173,6 +190,7 @@
 				14DD1B241DDC37BC004C56A9 /* BaseController */,
 				14DD1ABB1DDBF0FD004C56A9 /* AppDelegate.h */,
 				14DD1ABC1DDBF0FD004C56A9 /* AppDelegate.m */,
+				14D834891DFAA0F20062F632 /* CAGradientLayer动画 */,
 				1456AF251DE8184D000CD6C9 /* DailyNewsNavView */,
 				14BF2DDD1DE6BE2A00BA62A3 /* VersionControl */,
 				14DD1B1A1DDC36B8004C56A9 /* WaitProgressView */,
@@ -414,6 +432,8 @@
 				14BF2DE31DE6BE2A00BA62A3 /* VersionViewController.m in Sources */,
 				1456AF2F1DE818B3000CD6C9 /* DailyNewsViewController.m in Sources */,
 				14DD1B121DDC0894004C56A9 /* BannerScrollView.m in Sources */,
+				14D8348C1DFAA0F20062F632 /* CircleView.m in Sources */,
+				14D8348F1DFAA1330062F632 /* CAGreadientViewController.m in Sources */,
 				14DD1ABD1DDBF0FD004C56A9 /* AppDelegate.m in Sources */,
 				14DD1ABA1DDBF0FD004C56A9 /* main.m in Sources */,
 				14DD1B231DDC36C5004C56A9 /* WaitViewController.m in Sources */,

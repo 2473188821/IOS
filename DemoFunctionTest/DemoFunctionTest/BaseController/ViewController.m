@@ -11,7 +11,7 @@
 #import "WaitViewController.h"
 #import "VersionViewController.h"
 #import "DailyNewsViewController.h"
-
+#import "CAGreadientViewController.h"
 
 /** 屏幕尺寸参数 */
 #define SCREEN_WIDTH        [UIScreen mainScreen].bounds.size.width
@@ -35,7 +35,7 @@
 }
 #pragma mark - **************** 初始化操作
 - (void)initBaseData {
-    self.arrayDataSource = @[@"Banner展示－UIScrollView",@"等待框的显示",@"App版本升级监测",@"知呼日报底部导航视图"];
+    self.arrayDataSource = @[@"Banner展示－UIScrollView",@"等待框的显示",@"App版本升级监测",@"知呼日报底部导航视图",@"CAGradientLayer动画"];
 }
 
 - (void)initBaseView {
@@ -93,7 +93,7 @@
         }
             break;
         case 4: {
-            
+            [self functionGreadientLayerAnimation];
         }
             break;
         case 5: {
@@ -128,6 +128,10 @@
 - (void)functionDailyNewsNav {
     DailyNewsViewController *dailyVC = [DailyNewsViewController new];
     [self.navigationController pushViewController:dailyVC animated:YES];
+}
+- (void)functionGreadientLayerAnimation {
+    CAGreadientViewController *vcL = [CAGreadientViewController new];
+    [self.navigationController pushViewController:vcL animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {
