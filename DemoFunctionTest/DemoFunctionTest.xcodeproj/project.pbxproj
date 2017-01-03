@@ -34,6 +34,8 @@
 		14DD1B291DDC37BC004C56A9 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DD1B261DDC37BC004C56A9 /* BaseViewController.m */; };
 		14DD1B2A1DDC37BC004C56A9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DD1B281DDC37BC004C56A9 /* ViewController.m */; };
 		14DD1B2D1DDC383B004C56A9 /* CycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DD1B2C1DDC383B004C56A9 /* CycleScrollView.m */; };
+		14F555861E1B35170084C4B4 /* TipsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F555851E1B35170084C4B4 /* TipsView.m */; };
+		14F555891E1B35430084C4B4 /* TipsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F555881E1B35430084C4B4 /* TipsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +104,10 @@
 		14DD1B281DDC37BC004C56A9 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		14DD1B2B1DDC383B004C56A9 /* CycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CycleScrollView.h; sourceTree = "<group>"; };
 		14DD1B2C1DDC383B004C56A9 /* CycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CycleScrollView.m; sourceTree = "<group>"; };
+		14F555841E1B35170084C4B4 /* TipsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipsView.h; sourceTree = "<group>"; };
+		14F555851E1B35170084C4B4 /* TipsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipsView.m; sourceTree = "<group>"; };
+		14F555871E1B35430084C4B4 /* TipsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipsViewController.h; sourceTree = "<group>"; };
+		14F555881E1B35430084C4B4 /* TipsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +193,7 @@
 		14DD1AB71DDBF0FD004C56A9 /* DemoFunctionTest */ = {
 			isa = PBXGroup;
 			children = (
+				14F555831E1B35170084C4B4 /* TipsDefine */,
 				14DD1B241DDC37BC004C56A9 /* BaseController */,
 				14DD1ABB1DDBF0FD004C56A9 /* AppDelegate.h */,
 				14DD1ABC1DDBF0FD004C56A9 /* AppDelegate.m */,
@@ -277,6 +284,17 @@
 				14DD1B281DDC37BC004C56A9 /* ViewController.m */,
 			);
 			path = BaseController;
+			sourceTree = "<group>";
+		};
+		14F555831E1B35170084C4B4 /* TipsDefine */ = {
+			isa = PBXGroup;
+			children = (
+				14F555841E1B35170084C4B4 /* TipsView.h */,
+				14F555851E1B35170084C4B4 /* TipsView.m */,
+				14F555871E1B35430084C4B4 /* TipsViewController.h */,
+				14F555881E1B35430084C4B4 /* TipsViewController.m */,
+			);
+			path = TipsDefine;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -427,12 +445,14 @@
 				14DD1B1F1DDC36B8004C56A9 /* CCProgressView.m in Sources */,
 				14DD1B291DDC37BC004C56A9 /* BaseViewController.m in Sources */,
 				1456AF2C1DE8184D000CD6C9 /* NewsNavigationView.m in Sources */,
+				14F555891E1B35430084C4B4 /* TipsViewController.m in Sources */,
 				14DD1B201DDC36B8004C56A9 /* CircleRefreshView.m in Sources */,
 				14DD1B191DDC35B5004C56A9 /* BannerViewController.m in Sources */,
 				14BF2DE31DE6BE2A00BA62A3 /* VersionViewController.m in Sources */,
 				1456AF2F1DE818B3000CD6C9 /* DailyNewsViewController.m in Sources */,
 				14DD1B121DDC0894004C56A9 /* BannerScrollView.m in Sources */,
 				14D8348C1DFAA0F20062F632 /* CircleView.m in Sources */,
+				14F555861E1B35170084C4B4 /* TipsView.m in Sources */,
 				14D8348F1DFAA1330062F632 /* CAGreadientViewController.m in Sources */,
 				14DD1ABD1DDBF0FD004C56A9 /* AppDelegate.m in Sources */,
 				14DD1ABA1DDBF0FD004C56A9 /* main.m in Sources */,

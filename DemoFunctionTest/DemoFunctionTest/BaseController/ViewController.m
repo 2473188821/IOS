@@ -12,6 +12,7 @@
 #import "VersionViewController.h"
 #import "DailyNewsViewController.h"
 #import "CAGreadientViewController.h"
+#import "TipsViewController.h"
 
 /** 屏幕尺寸参数 */
 #define SCREEN_WIDTH        [UIScreen mainScreen].bounds.size.width
@@ -35,7 +36,7 @@
 }
 #pragma mark - **************** 初始化操作
 - (void)initBaseData {
-    self.arrayDataSource = @[@"Banner展示－UIScrollView",@"等待框的显示",@"App版本升级监测",@"知呼日报底部导航视图",@"CAGradientLayer动画"];
+    self.arrayDataSource = @[@"Banner展示－UIScrollView",@"等待框的显示",@"App版本升级监测",@"知呼日报底部导航视图",@"CAGradientLayer动画",@"自定义的提示框-uicraphics使用"];
 }
 
 - (void)initBaseView {
@@ -97,7 +98,7 @@
         }
             break;
         case 5: {
-            
+            [self functionTopsViewController];
         }
             break;
         case 6: {
@@ -132,6 +133,10 @@
 - (void)functionGreadientLayerAnimation {
     CAGreadientViewController *vcL = [CAGreadientViewController new];
     [self.navigationController pushViewController:vcL animated:YES];
+}
+- (void)functionTopsViewController {
+    TipsViewController *tipsVC = [TipsViewController new];
+    [self.navigationController pushViewController:tipsVC animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {
